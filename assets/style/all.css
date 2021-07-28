@@ -148,13 +148,15 @@ img {
 
 a {
   text-decoration: none; }
-
-a:hover {
-  text-decoration: underline; }
+  a:hover {
+    text-decoration: underline; }
 
 .container {
   max-width: 1110px;
   margin: 0 auto; }
+
+.link-hover:hover {
+  opacity: 0.7; }
 
 .ff-1 {
   font-family: "Roboto"; }
@@ -325,10 +327,6 @@ a:hover {
 
 .pb-10 {
   padding-bottom: 80px; }
-
-.px-3 {
-  padding-left: 24px;
-  padding-right: 24px; }
 
 .px-4 {
   padding-left: 32px;
@@ -576,9 +574,8 @@ a:hover {
   border: 1px solid transparent;
   background: transparent;
   cursor: pointer; }
-
-.btn:hover {
-  opacity: 0.7; }
+  .btn:hover {
+    opacity: 0.7; }
 
 .btn-danger {
   background: #aa0601;
